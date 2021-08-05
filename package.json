@@ -1,0 +1,19 @@
+{
+  "name": "sfmc-sms-ca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbroeder/ca-test.git"
+  },
+  "author": "renato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbroeder/ca-test/issues"
+  },
+  "homepage": "https://github.com/rbroeder/ca-test#readme"
+}
