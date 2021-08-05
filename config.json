@@ -26,21 +26,21 @@
           "foundSignupDate": ""
         }
       ],
-      "url": "https://sfmc-sms.azurewebsites.net/execute"
+      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/execute"
     }
   },
   "configurationArguments": {
     "save": {
-      "url": "URI/for/your/activity/save"
+      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/save"
     },
     "publish": {
-      "url": "URI/for/your/activity/publish"
+      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/publish"
     },
     "validate": {
-      "url": "URI/for/your/activity/validate"
+      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/validate"
     },
     "stop": {
-      "url": "URI/for/your/activity/stop"
+      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/stop"
     }
   },
   "wizardSteps": [
