@@ -1,13 +1,13 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
-    "icon": "images/sms.png",
+    "icon": "images/icon.png",
     "category": "message"
   },
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "REST Activity (Workflow API v1.1)",
+      "name": "SMS PoC",
       "description": "An example REST activity using workflow API v1.1 format."
     }
   },
@@ -15,15 +15,18 @@
     "execute": {
       "inArguments": [
         {
-          "emailAddress": "{{InteractionDefaults.Email}}"
+          "emailAddress": ""
         },
         {
-          "phoneNumber": "{{Contact.Default.PhoneNumber}}"
+          "phoneNumber": ""
+        },
+        {
+          "message": ""
         }
       ],
       "outArguments": [
-        {
-          "foundSignupDate": ""
+          {
+            "foundSignupDate": ""
         }
       ],
       "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/execute"
@@ -63,26 +66,33 @@
           {
             "phoneNumber": {
               "dataType": "Phone",
-              "isNullable": false,
+              "isNullable": true,
               "direction": "in"
             }
           },
           {
             "emailAddress": {
               "dataType": "Email",
-              "isNullable": false,
+              "isNullable": true,
+              "direction": "in"
+            }
+          },
+          {
+            "message": {
+              "dataType": "Text",
+              "isNullable": true,
               "direction": "in"
             }
           }
         ],
         "outArguments": [
-          {
-            "foundSignupDate": {
-              "dataType": "Date",
-              "direction": "out",
-              "access": "visible"
+            {
+                 "foundSignupDate": {
+                    "dataType": "Date",
+                    "direction": "out",
+                    "access": "visible"
+                }
             }
-          }
         ]
       }
     }
