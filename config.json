@@ -29,21 +29,21 @@
             "foundSignupDate": ""
         }
       ],
-      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/execute"
+      "url": "https://test-renato.herokuapp.com/journeybuilder/execute"
     }
   },
   "configurationArguments": {
     "save": {
-      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/save"
+      "url": "https://test-renato.herokuapp.com/journeybuilder/save"
     },
     "publish": {
-      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/publish"
+      "url": "https://test-renato.herokuapp.com/journeybuilder/publish"
     },
     "validate": {
-      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/validate"
+      "url": "https://test-renato.herokuapp.com/journeybuilder/validate"
     },
     "stop": {
-      "url": "https://sfmc-sms.azurewebsites.net/journeybuilder/stop"
+      "url": "https://test-renato.herokuapp.com/journeybuilder/stop"
     }
   },
   "wizardSteps": [
